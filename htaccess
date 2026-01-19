@@ -1,0 +1,35 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page100796956.html
+
+RewriteEngine On
+
+RewriteRule ^home$ page100796956.html [NC]
+RewriteRule ^home/$ page100796956.html [NC]
+
+RewriteRule ^services/pages$ page100938186.html [NC]
+RewriteRule ^services/pages/$ page100938186.html [NC]
+
+RewriteRule ^aboyt$ page100850716.html [NC]
+RewriteRule ^aboyt/$ page100850716.html [NC]
+
+RewriteRule ^rofessional/services$ page108456506.html [NC]
+RewriteRule ^rofessional/services/$ page108456506.html [NC]
+
+RewriteRule ^public/relations$ page101238996.html [NC]
+RewriteRule ^public/relations/$ page101238996.html [NC]
+
+RewriteRule ^strategic/marketing$ page101244366.html [NC]
+RewriteRule ^strategic/marketing/$ page101244366.html [NC]
+
+RewriteRule ^insights$ page104904866.html [NC]
+RewriteRule ^insights/$ page104904866.html [NC]
+
+RewriteRule ^results$ page105664126.html [NC]
+RewriteRule ^results/$ page105664126.html [NC]
+
+RewriteRule ^contact$ page109696246.html [NC]
+RewriteRule ^contact/$ page109696246.html [NC]
+
+
